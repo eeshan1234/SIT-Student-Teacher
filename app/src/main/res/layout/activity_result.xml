@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result"
+    android:background="@drawable/req2"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test Completed!!"
+        android:id="@+id/score"
+        android:textSize="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_centerVertical="true"
+        />
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Home"
+    android:id="@+id/btn"
+    android:layout_below="@+id/score"
+    android:layout_marginTop="120dp"
+    android:layout_centerHorizontal="true"
+    />
+</RelativeLayout>

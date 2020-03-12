@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Taketest"
+    android:background="@drawable/req"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qno"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="25dp"
+        android:text="Question1 "
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ques"
+        android:layout_below="@+id/qno"
+        android:layout_marginLeft="25dp"
+        android:text="Who is Dhiraj Kumar ?"
+        android:layout_marginTop="20dp"
+        android:textSize="21sp"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1"
+        android:layout_below="@+id/ques"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="35dp"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:id="@+id/rb1"
+            android:text="Option one"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:textSize="16dp"
+            android:text="Option two"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb3"
+            android:textSize="16dp"
+            android:text="Option three"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/submit"
+        android:layout_below="@+id/rg1"
+        android:layout_marginTop="95dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

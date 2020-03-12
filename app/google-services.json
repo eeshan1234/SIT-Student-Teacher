@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "161402973329",
+    "firebase_url": "https://sitstudentteacher.firebaseio.com",
+    "project_id": "sitstudentteacher",
+    "storage_bucket": "sitstudentteacher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161402973329:android:228f7ea3a8c52ba1f9e330",
+        "android_client_info": {
+          "package_name": "com.example.sitstudentteacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161402973329-bhkg1d5a91k8fijm42oi856pd95k77kh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sitstudentteacher",
+            "certificate_hash": "97bdaf93d2221f9745149cebf6c025030123161d"
+          }
+        },
+        {
+          "client_id": "161402973329-m2qbnf3jprn74ff9no33chp8k03fktvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASsqHp4l9_ySUHjatXmLDvPUrCiZ8Y3zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161402973329-m2qbnf3jprn74ff9no33chp8k03fktvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

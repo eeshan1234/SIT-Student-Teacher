@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+        <EditText
+            android:id="@+id/qno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:hint="Question Number"
+
+            />
+
+        <EditText
+            android:id="@+id/ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/qno"
+            android:layout_margin="30dp"
+            android:hint="Question"
+
+            />
+
+        <EditText
+            android:id="@+id/opt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ques"
+            android:layout_margin="30dp"
+            android:hint="Option 1" />
+
+        <EditText
+            android:id="@+id/opt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/opt1"
+            android:layout_margin="30dp"
+            android:hint="Option 2" />
+
+        <EditText
+            android:id="@+id/opt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/opt2"
+            android:layout_margin="30dp"
+            android:hint="Option 3" />
+
+        <TextView
+            android:id="@+id/copt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/opt3"
+            android:layout_margin="30dp"
+            android:text="Correct Option"
+            android:textSize="16sp" />
+
+        <Spinner
+            android:id="@+id/spino"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/opt3"
+            android:layout_margin="30dp"
+            android:layout_toRightOf="@+id/copt" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spino"
+            android:layout_centerHorizontal="true"
+            android:text="Done" />
+
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/done"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:text="Next" />
+
+
+</RelativeLayout>
+</ScrollView>
